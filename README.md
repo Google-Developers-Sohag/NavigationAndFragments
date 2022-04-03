@@ -111,6 +111,6 @@ binding.btnNext.setOnClickListener {
 ## Classes References :
 - A `Fragment` : A Fragment represents a reusable portion of your app's UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment.
 
-- A `FragmentComponent` :  is a customized Layout designed specifically for Fragments. It extends FrameLayout, so it can reliably handle Fragment Transactions, and it also has additional features to coordinate with fragment behavior.
+- A `FragmentContainerView` :  is a customized Layout designed specifically for Fragments. It extends FrameLayout, so it can reliably handle Fragment Transactions, and it also has additional features to coordinate with fragment behavior.
 
 - Notice : FragmentContainerView will only allow views returned by a Fragment's `Fragment.onCreateView`. Attempting to add any other view will result in an IllegalStateException.
